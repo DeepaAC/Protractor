@@ -1,0 +1,11 @@
+{
+    "url":"http://www.way2automation.com/angularjs-protractor/banking/#/login",
+    "deposit":{
+        "a":2000
+    },
+    "currencyIndex":{
+        "a":0,
+        "b":1,
+        "c":2
+    }
+}
