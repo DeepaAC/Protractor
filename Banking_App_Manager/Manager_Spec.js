@@ -200,7 +200,7 @@ browser.sleep(3000);
 
    });//end of withDrawError block
 
-   xit('Customer Test Case withDrawSuccess & Transation After Withdrawl',function(){
+   it('Customer Test Case withDrawSuccess & Transation After Withdrawl',function(){
     CustomerHAryLogin();
     currency(data.currencyIndex.c);
     Deposit(data.deposit.a);
