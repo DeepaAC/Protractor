@@ -1,0 +1,14 @@
+{
+  "name": "protractorpractice3",
+  "version": "1.0.0",
+  "description": "Protractor Practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Deepa",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "^5.4.2"
+  }
+}
