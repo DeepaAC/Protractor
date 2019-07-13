@@ -1,0 +1,15 @@
+{
+  "name": "banking_app_customer",
+  "version": "1.0.0",
+  "description": "Testing the banking app for customer.",
+  "main": "Customer_Conf.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "^5.4.2",
+    "winston": "^3.2.1"
+  }
+}
