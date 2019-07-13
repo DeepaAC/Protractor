@@ -51,7 +51,7 @@ afterEach(function(){
     logger.info('Test Case Executed');
 });
 
-it ('Customer Test Case verifyCurrencyType',function(){
+xit ('Customer Test Case verifyCurrencyType',function(){
   CustomerHAryLogin();
 currency(data.currencyIndex.c)
    });//end of Customer Test Case verifyCurrencyType
@@ -107,7 +107,7 @@ browser.sleep(3000);
     element(by.buttonText('Withdraw')).click(); 
     browser.sleep(3000);
 
-   });//end of withDrawSuccess block
+   });//end of the  withDrawSuccess block
 
 });//end of decribe block
 
