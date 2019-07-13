@@ -91,7 +91,8 @@ browser.sleep(3000);
 
 element(by.buttonText('Process')).click();
 browser.sleep(4000);
-
+//expect(addCustomer.getText()).toEqual('Customer added successfully with customer id');
+//browser.sleep(2000);
 
 
 });//end of Manager Test Case to open Account for dollar
