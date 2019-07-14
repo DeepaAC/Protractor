@@ -19,7 +19,7 @@ exports.config = {
     jasmineNodeOpts: {
       defaultTimeoutInterval: 90000
     },
-    onPrepare: function() {
+    onPrepare: function() { //Html Report Generates
       jasmine.getEnv().addReporter(
         new Jasmine2HtmlReporter({
           savePath: 'target/screenshots'
