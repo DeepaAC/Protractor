@@ -67,8 +67,10 @@ element(by.model('postCd')).sendKeys('12345');
 browser.sleep(3000);
 
  element(by.className('btn btn-default')).click();
+ browser.sleep(3000);
 //expect(addCustomer.getText()).toEqual('Customer added successfully with customer id');
-//browser.sleep(2000);
+browser.switchTo().alert().accept();
+
 
 
 });// end of Manager Test Case to add customer
@@ -91,8 +93,10 @@ browser.sleep(3000);
 
 element(by.buttonText('Process')).click();
 browser.sleep(4000);
+
 //expect(addCustomer.getText()).toEqual('Customer added successfully with customer id');
-//browser.sleep(2000);
+browser.switchTo().alert().accept();
+browser.sleep(2000);
 
 
 });//end of Manager Test Case to open Account for dollar
@@ -114,6 +118,9 @@ browser.sleep(3000);
 
 element(by.buttonText('Process')).click();
 browser.sleep(4000);
+browser.switchTo().alert().accept();
+browser.sleep(2000);
+
 
 
 });//end of Manager Test Case to open Account for Pound
@@ -134,6 +141,9 @@ browser.sleep(3000);
 
 element(by.buttonText('Process')).click();
 browser.sleep(4000);
+browser.switchTo().alert().accept();
+browser.sleep(2000);
+
 
 
 });//end of Manager Test Case to open Account for Rupee
@@ -200,7 +210,7 @@ browser.sleep(3000);
 
    });//end of withDrawError block
 
-   it('Customer Test Case withDrawSuccess & Transation After Withdrawl',function(){
+   xit('Customer Test Case withDrawSuccess & Transation After Withdrawl',function(){
     CustomerHAryLogin();
     currency(data.currencyIndex.c);
     Deposit(data.deposit.a);
@@ -222,7 +232,7 @@ browser.sleep(3000);
 
 
    });
-xit('Customer Test Case Logout',function(){
+it('Customer Test Case Logout',function(){
     CustomerHAryLogin();
     browser.sleep(4000);
     element(by.buttonText('Logout')).click(); //Customer Test Case Logout
