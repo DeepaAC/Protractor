@@ -57,7 +57,7 @@ currency(data.currencyIndex.c)
    });//end of Customer Test Case verifyCurrencyType
 
      
-   xit('Customer Test Case InitialTraction',function(){
+  xit('Customer Test Case InitialTraction',function(){
     CustomerHAryLogin();
 element(by.buttonText('Transactions')).click();
 browser.sleep(3000);
